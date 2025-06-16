@@ -55,7 +55,7 @@ body {
 
 .video-main {
   position: relative;
-  height: 85vh;
+  height: 90vh;
   overflow: hidden;
   margin-bottom: .9px;
   padding-top: 1rem;
@@ -80,7 +80,7 @@ section.container-fluid {
 }
 
 #bars{
-  border-bottom: 1px solid #f8f8f8;
+  border-bottom: 1px solid #81c3de !important;
 }
 
 #bars h5{
@@ -88,6 +88,46 @@ section.container-fluid {
   color: aliceblue !important ;
 }
 
+.latest-ep-swiper-slide li {
+  width: 220px;  /* Fixed width for list items */
+}
+
+
+.entry-title{
+  /* display: -webkit-box; */
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  /* overflow: hidden; */
+  overflow: visible !important;
+  white-space: nowrap;
+  font-size: 14px;
+  color: aliceblue;
+  white-space: normal !important;  /* Allow text to wrap */
+  display: -webkit-box !important;
+  line-height: 1.3;
+  margin: 8px 0;
+  height: auto;
+  text-overflow: ellipsis;
+}
+
+
+.swiper-wrapper{
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE/Edge */
+  scroll-behavior: smooth;
+}
+
+
+
+.entry-header li{
+  width: 100%;
+  overflow: hidden;
+  text-align: center;
+  font-size: medium;
+  color: aliceblue;
+  /* size-adjust: 50%; */
+  /* text-overflow: ellipsis; */
+}
 
 @media (max-width: 643px) {
   .video-bg {
