@@ -88,21 +88,14 @@ section.container-fluid {
   color: aliceblue !important ;
 }
 
-.latest-ep-swiper-slide li {
-  width: 220px;  /* Fixed width for list items */
-}
-
 
 .entry-title{
-  /* display: -webkit-box; */
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 2;
-  /* overflow: hidden; */
   overflow: visible !important;
   white-space: nowrap;
   font-size: 14px;
-  color: aliceblue;
-  white-space: normal !important;  /* Allow text to wrap */
+  white-space: normal !important;  
   display: -webkit-box !important;
   line-height: 1.3;
   margin: 8px 0;
@@ -123,10 +116,9 @@ section.container-fluid {
   width: 100%;
   overflow: hidden;
   text-align: center;
-  font-size: medium;
-  color: aliceblue;
-  /* size-adjust: 50%; */
-  /* text-overflow: ellipsis; */
+  font-size: 18px;
+  color: rgb(113, 189, 255);
+
 }
 
 @media (max-width: 643px) {
@@ -139,6 +131,32 @@ section.container-fluid {
     object-fit: cover;
   }
 }
+
+
+.post-ql{
+  position: absolute;
+  top: 3%;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.7);
+  left: 7px;
+  border-radius: 0.2rem;
+  font-size: 10px;
+  padding: 4px;
+}
+
+.year{
+  position: absolute;
+  bottom: 5%;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.7);
+  left: 10px;
+  border-radius: 0.2rem;
+  font-size: 12px;
+  padding: 4px;
+}
+
+
+
 
 @media (max-width: 768px) {
   .gs-logo-scroll {
