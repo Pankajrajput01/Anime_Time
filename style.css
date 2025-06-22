@@ -137,6 +137,12 @@ section.container-fluid {
   border-radius: 0.2rem;
   font-size: 10px;
   padding: 4px;
+  opacity: 1;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.post-ql:hover {
+  opacity: 0.8;
 }
 
 .year{
@@ -149,6 +155,9 @@ section.container-fluid {
   font-size: 12px;
   padding: 4px;
 }
+
+
+
 .video-about{
   width: 35rem;
   font-size: 22px;
@@ -168,6 +177,7 @@ section.container-fluid {
   font-family: 'sans-serif';
   color: cyan !important;
 }
+
 
 .video-about h1 {
   font-size: 36px;
@@ -215,6 +225,7 @@ section.container-fluid {
   }
 }
 
+
 @media (max-width: 576px) {
   .video-about {
     width: 100% !important;
@@ -255,3 +266,7 @@ section.container-fluid {
     flex: 0 0 auto;
   }
 }
+
+
+
+
